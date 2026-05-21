@@ -13,3 +13,79 @@ vless://c6058bb8-6194-4559-a6a6-2e0a8b05d962@files.zhaopn.xyz:443?encryption=non
 vless://f077874d-0ba1-4491-a7b8-672bb005a646@fi1.thefastspeedtest.net:443?type=tcp&security=reality&sni=fi1.thefastspeedtest.net&pbk=PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F+%F0%9F%87%AB%F0%9F%87%AE
 vless://f077874d-0ba1-4491-a7b8-672bb005a646@nl1.thefastspeedtest.net:443?type=tcp&security=reality&sni=nl1.thefastspeedtest.net&pbk=PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B+%F0%9F%87%B3%F0%9F%87%B1
 
+{
+  "dns": {
+    "servers": ["1.1.1.1", "1.0.0.1"],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {"ip": ["geoip:private"], "type": "field", "outboundTag": "direct"},
+      {"type": "field", "domain": ["geosite:private"], "outboundTag": "direct"},
+      {"type": "field", "domain": ["geosite:category-public-tracker"], "ruleTag": "TORRENT_BY_DOMAIN", "outboundTag": "block"},
+      {"type": "field", "ruleTag": "TORRENT_BY_PROTOCOL", "protocol": ["bittorrent"], "outboundTag": "block"},
+      {"port": "6881-6999,6969,2710,51413,4444", "type": "field", "network": "tcp,udp", "ruleTag": "TORRENT_BY_PORT", "outboundTag": "block"},
+      {"type": "field", "domain": ["domain:brawlstarsgame.com", "domain:game.brawlstarsgame.com", "domain:supercell.com", "domain:supercell.io", "domain:www.gstatic.com", "regexp:supercell", "regexp:assets", "keyword:brawlstars", "keyword:supercell"], "outboundTag": "proxy"},
+      {"port": "9339,9443", "type": "field", "outboundTag": "proxy"},
+      {"port": "1024-65535", "type": "field", "network": "udp", "outboundTag": "proxy"},
+      {"type": "field", "network": "tcp,udp", "outboundTag": "direct"}
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {"udp": true, "auth": "noauth"},
+      "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {"allowTransparent": false, "auth": "noauth"},
+      "sniffing": {"enabled": true, "routeOnly": false, "destOverride": ["http", "tls", "quic"]}
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [{
+          "address": "45.137.148.84",
+          "port": 443,
+          "users": [{"id": "14a48451-1abe-4ed9-b41a-68e2f82698d4", "encryption": "none", "flow": "xtls-rprx-vision"}]
+        }]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "supercell.com",
+          "publicKey": "qGOkj12WtKXnTSoFz9DhdOgEbswyFodX-RzeyoEjAHA",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {"tag": "direct", "protocol": "freedom"},
+    {"tag": "block", "protocol": "blackhole"}
+  ],
+  "subscription": {
+    "total": 10995116277760,
+    "upload": 0,
+    "download": 0,
+    "expire": 4102444800
+  },
+  "remarks": "🇩🇪 Brawl Stars TEST 🇩🇪",
+  "log": {
+    "access": "/storage/emulated/0/Android/data/com.happproxy/files/assets/logs/access/access_log.txt",
+    "error": "/storage/emulated/0/Android/data/com.happproxy/files/assets/logs/error/1779303085522_error_log.txt"
+  }
+}
+
