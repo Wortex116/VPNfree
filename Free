@@ -4,6 +4,9 @@
 #announce: самый потужный впн
 #subscription-userinfo: upload=0; download=0; total=1099511627776000000; expire=31557600000000
 
+vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.156:8443?type=tcp&security=none&sni=&fp=chrome#%F0%9F%87%AA%F0%9F%87%AA+%D0%9C%D0%BE%D1%81%D1%82+-+%D0%AD%D1%81%D1%82%D0%BE%D0%BD%D0%B8%D1%8F
+vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.145:8443?type=tcp&security=none&sni=&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA+%D0%9C%D0%BE%D1%81%D1%82+-+%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F
+vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.90:8443?type=tcp&security=none&sni=&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1+%D0%9C%D0%BE%D1%81%D1%82+-+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B
 vless://ac195240-6005-412b-9829-1e56e5d5c52a@66.81.247.209:80?encryption=none&type=ws&host=rutube.globaledgenet.com&path=%2Frutube#🇷🇺%20YouTube%20%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B
 vless://3780b483-63df-4aee-b338-737782ad9fe5@cdn.crackable.tech:443?encryption=none&security=tls&sni=cdn.crackable.fun&fp=chrome&type=xhttp&mode=auto&host=cdn.crackable.fun&path=%2Fapi%2Fv3%2Finternal%2Fanalytics%2Fsession%2Fuser%2Fpreferences%2Fsync#🇳🇴%20LTE%20%D0%9D%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D0%B8%D1%8F
 vless://e29c230e-4937-4e02-91d9-8664f8a96ea5@ru8.lightningvpn.space:33010?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=chrome&pbk=0HG1XTaMl79XQanIP2FQOqZRs23vJg7lmcuT8BUSO1c&sid=840a1708c097e27b&type=tcp&headerType=none#🇸🇪%20LTE%20%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F
