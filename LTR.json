@@ -1,0 +1,45 @@
+{
+  "remarks": "🇷🇺 Супер балансир | 10 серверов",
+  "outbounds": [
+    {
+      "tag": "proxy-1",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [{
+          "address": "89.125.20.88",
+          "port": 8444,
+          "users": [{ "id": "b115338d-fe52-44f4-a5bb-166537183fb5", "encryption": "none", "flow": "xtls-rprx-vision" }]
+        }]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": { "serverName": "yandex.ru", "fingerprint": "chrome", "publicKey": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ", "shortId": "abcd" }
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [{
+          "address": "ru21.lightningvpn.space",
+          "port": 33010,
+          "users": [{ "id": "e29c230e-4937-4e02-91d9-8664f8a96ea5", "encryption": "none", "flow": "xtls-rprx-vision" }]
+        }]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": { "serverName": "ads.x5.ru", "fingerprint": "chrome", "publicKey": "_mo3pjyRIQFDj_tFbe5b_3nBpeAQGfFmGMLZvELHwHk", "shortId": "57f5c35f664c6582" }
+      }
+    }
+  ],
+  "routing": {
+    "balancers": [{
+      "tag": "balancer",
+      "selector": ["proxy-1", "proxy-2"],
+      "strategy": { "type": "leastPing" }
+    }],
+    "rules": [{ "type": "field", "network": "tcp,udp", "balancerTag": "balancer" }]
+  }
+}
