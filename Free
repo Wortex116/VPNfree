@@ -50,39 +50,3 @@ vless://080572cf-89a4-47de-bbd2-572f2623211c@89.127.207.188:8443?encryption=none
 
 vless://ffb63c52-93d1-4ac8-a005-752192992c68@jp.kp7mx3.uk:443?type=tcp&security=reality&sni=www.amd.com&pbk=mlZWHrNQ32TAvNgNtN_X3nbmS0Z7t4dg1zCJjr4vB2o&flow=xtls-rprx-vision&fp=chrome#🇯🇵 Япония 1
 
-vless://3780b483-63df-4aee-b338-737782ad9fe5@jp.voxyvpn.ru:6443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dl.google.com&fp=chrome&pbk=L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8&sid=deadbeef&type=tcp#🇯🇵 Япония 2
-
-vless://b115338d-fe52-44f4-a5bb-166537183fb5@89.125.20.88:8444?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd&type=tcp#🇦🇶 Антарктида
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@gcn-1.harknmav.fun:443?type=tcp&security=reality&sni=ads.x5.ru&pbk=QkMsAGf-Yb6Yct69mA8-cMv1Mad5QpxQ_RegdpRA1yo&sid=2a352b0d4d15e0f7&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE РФ 1 | REALITY
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fapi%2Fv2%2Fsegments%2F&host=cdn.fastcon.cc#🇷🇺 LTE РФ 2 | XHTTP cdn
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-1.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-1.fastcon.cc#🇷🇺 LTE РФ 3 | XHTTP cdn2-1
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-2.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-2.fastcon.cc#🇷🇺 LTE РФ 4 | XHTTP cdn2-2
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-3.fastcon.cc&fp=firefox&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-3.fastcon.cc#🇷🇺 LTE РФ 5 | XHTTP cdn2-3
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-4.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-4.fastcon.cc#🇷🇺 LTE РФ 6 | XHTTP cdn2-4
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-5.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-5.fastcon.cc#🇷🇺 LTE РФ 7 | XHTTP cdn2-5
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-6.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-6.fastcon.cc#🇷🇺 LTE РФ 8 | XHTTP cdn2-6
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-7.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-7.fastcon.cc#🇷🇺 LTE РФ 9 | XHTTP cdn2-7
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-8.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-8.fastcon.cc#🇷🇺 LTE РФ 10 | XHTTP cdn2-8
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-9.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-9.fastcon.cc#🇷🇺 LTE РФ 11 | XHTTP cdn2-9
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-10.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-10.fastcon.cc#🇷🇺 LTE РФ 12 | XHTTP cdn2-10
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn-2.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fapi%2Fv2%2Fsegments%2F&host=cdn-2.fastcon.cc#🇷🇺 LTE РФ 13 | XHTTP cdn-2
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-1.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-1.fastcon.cc#🇷🇺%20LTE%20РФ%201%20|%20XHTTP%20cdn2-1
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-2.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-2.fastcon.cc#🇷🇺%20LTE%20РФ%202%20|%20XHTTP%20cdn2-2
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-3.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-3.fastcon.cc#🇷🇺%20LTE%20РФ%203%20|%20XHTTP%20cdn2-3
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-4.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-4.fastcon.cc#🇷🇺%20LTE%20РФ%204%20|%20XHTTP%20cdn2-4
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-5.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-5.fastcon.cc#🇷🇺%20LTE%20РФ%205%20|%20XHTTP%20cdn2-5
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-6.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-6.fastcon.cc#🇷🇺%20LTE%20РФ%206%20|%20XHTTP%20cdn2-6
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-7.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-7.fastcon.cc#🇷🇺%20LTE%20РФ%207%20|%20XHTTP%20cdn2-7
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-8.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-8.fastcon.cc#🇷🇺%20LTE%20РФ%208%20|%20XHTTP%20cdn2-8
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-9.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-9.fastcon.cc#🇷🇺%20LTE%20РФ%209%20|%20XHTTP%20cdn2-9
-
-vless://6eca2fec-077e-497d-98eb-4aab0a7abdba@178.176.128.128:443?type=xhttp&encryption=none&security=tls&sni=cdn2-10.fastcon.cc&fp=chrome&mode=packet-up&path=%2Fcdn%2Fstatic%2Fv3%2F&host=cdn2-10.fastcon.cc#🇷🇺%20LTE%20РФ%2010%20|%20XHTTP%20cdn2-10
-
