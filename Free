@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://t.me/ciorsa
 #announce: самый потужный впн
-#subscription-userinfo: upload=0; download=0; total=10995116277760000; expire=1577846300000
+#subscription-userinfo: upload=0; download=0; total=10995116277760000; expire=15778460000000000000099999999300000
 vless://ca82a7c1-e50a-4ace-aae4-9fe9c998eea9@85.192.56.158:2223?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=bdihAh1KMsPm4OpW3ib-CXGGTtwDrDJYl4EGH0f_-xA&sid=aa11bb22cc33dd44#🇷🇺 YouTube без рекламы
 vless://3b08659b-cbec-4e09-8dcf-a5a4c87d0fe4@62.152.58.35:6443?encryption=none&security=reality&sni=rutube.ru&fp=chrome&pbk=qBvVmWZFPfUH-96coWrN4jp6XTNFTzmVWA_IbtTsWyE&sid=9120&type=xhttp&mode=auto#🇷🇺 YouTube без рекламы 2
 vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.156:8443?type=tcp&security=none&fp=chrome#🇪🇪 Мост - Эстония
