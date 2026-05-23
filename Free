@@ -51,6 +51,7 @@ vless://e5ce8403-806d-428f-828a-ce869a26754a@84.201.132.60:7443?encryption=none&
 vless://e5ce8403-806d-428f-828a-ce869a26754a@84.201.132.60:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851&type=tcp&headerType=none#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%203
 
 vless://e5ce8403-806d-428f-828a-ce869a26754a@84.201.132.60:443?encryption=none&security=tls&sni=yan-node.rknsosi.ru&fp=chrome&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%204
+vless://c71c9202-b96a-4fe3-bf26-f5c5fc3670cf@158.160.90.212:8443?type=tcp&security=reality&sni=ads.x5.ru&pbk=2zAba7569dQmvrj7-dHd1iJ_POA2SpwDcbig4WBqaE8&flow=xtls-rprx-vision&fp=chrome#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%2011
 
 vless://e5ce8403-806d-428f-828a-ce869a26754a@ya-node.rknsosi.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=Hni0uZJYvOn76lyTmxbCaBi5tgHLVw6L_Ty7l3Dho1s&sid=84759329fbaa5470&type=tcp&headerType=none#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%205
 
@@ -61,3 +62,8 @@ vless://e5ce8403-806d-428f-828a-ce869a26754a@84.201.132.60:8443?encryption=none&
 vless://e5ce8403-806d-428f-828a-ce869a26754a@84.201.132.60:443?encryption=none&security=tls&sni=yan-node.rknsosi.ru&fp=chrome&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%208
 
 vless://e5ce8403-806d-428f-828a-ce869a26754a@84.201.132.60:9443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%209
+vless://c71c9202-b96a-4fe3-bf26-f5c5fc3670cf@158.160.90.212:443?type=tcp&security=reality&sni=ads.x5.ru&pbk=2zAba7569dQmvrj7-dHd1iJ_POA2SpwDcbig4WBqaE8&flow=xtls-rprx-vision&fp=firefox#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%2010
+vless://c71c9202-b96a-4fe3-bf26-f5c5fc3670cf@158.160.90.212:8443?type=tcp&security=reality&sni=ads.x5.ru&pbk=2zAba7569dQmvrj7-dHd1iJ_POA2SpwDcbig4WBqaE8&flow=xtls-rprx-vision&fp=chrome#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%2011
+vless://c71c9202-b96a-4fe3-bf26-f5c5fc3670cf@158.160.90.212:2053?type=tcp&security=reality&sni=ads.x5.ru&pbk=k_304DqAZItdWasWJpzPUBbf7h1y6OYwqWUHhulxXVo&flow=xtls-rprx-vision&fp=qq#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%2012
+vless://c71c9202-b96a-4fe3-bf26-f5c5fc3670cf@93.77.165.183:8443?type=tcp&security=reality&sni=ads.x5.ru&pbk=2zAba7569dQmvrj7-dHd1iJ_POA2SpwDcbig4WBqaE8&flow=xtls-rprx-vision&fp=chrome#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%2013
+vless://c71c9202-b96a-4fe3-bf26-f5c5fc3670cf@51.250.44.216:8443?type=tcp&security=reality&sni=ads.x5.ru&pbk=2zAba7569dQmvrj7-dHd1iJ_POA2SpwDcbig4WBqaE8&flow=xtls-rprx-vision&fp=chrome#🇷🇺%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%2014
