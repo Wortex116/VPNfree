@@ -19,3 +19,6 @@ vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:9443?encryption=none&
 vless://0080bc15-fce0-431b-b515-c2639e73109c@yan-node.rknsosi.ru:8090?encryption=none&security=reality&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F&sni=ads.x5.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851#🇷🇺 LTE обход 7
 
 vless://0080bc15-fce0-431b-b515-c2639e73109c@spb-node.rknsosi.ru:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=spb-node.rknsosi.ru&fp=chrome&pbk=nSmpMJMKkS17WthqG4xvXJgziPIC1Z4cXCWwW0NSfz8&sid=c2eca053e4202128&type=tcp&headerType=none#🇷🇺 LTE обход 8
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:9443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F#🇷🇺 LTE обход 9
+
