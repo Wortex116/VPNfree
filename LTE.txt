@@ -4,18 +4,30 @@
 #announce: все сервера предназначены для обходов белых списков
 #subscription-userinfo: upload=0; download=0; total=10995116277760000; expire=252460800000
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@ya-node.rknsosi.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=Hni0uZJYvOn76lyTmxbCaBi5tgHLVw6L_Ty7l3Dho1s&sid=84759329fbaa5470&type=tcp&headerType=none#🇷🇺 LTE обход 1
+vless://0080bc15-fce0-431b-b515-c2639e73109c@ya-node.rknsosi.ru:443?type=tcp&security=reality&sni=api-maps.yandex.ru&pbk=Hni0uZJYvOn76lyTmxbCaBi5tgHLVw6L_Ty7l3Dho1s&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 1
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@stp.loon.rknsosi.ru:443?encryption=none&security=reality&type=grpc&serviceName=&sni=api-maps.yandex.ru&fp=chrome&pbk=iN5cZSyJnwnhvsTT5Rc2wdLRQEi7d40rxNDEDN3sRkg&sid=3f3053322d5ac570#🇷🇺 LTE обход 2
+vless://0080bc15-fce0-431b-b515-c2639e73109c@stp.loon.rknsosi.ru:443?type=grpc&security=reality&sni=api-maps.yandex.ru&pbk=iN5cZSyJnwnhvsTT5Rc2wdLRQEi7d40rxNDEDN3sRkg&fp=chrome#🇷🇺 LTE обход 2
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=eh.vk.com&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851&type=tcp&headerType=none#🇷🇺 LTE обход 3
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:7443?type=tcp&security=reality&sni=eh.vk.com&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 3
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851&type=tcp&headerType=none#🇷🇺 LTE обход 4
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:8443?type=tcp&security=reality&sni=api-maps.yandex.ru&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 4
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:443?encryption=none&security=tls&sni=yan-node.rknsosi.ru&fp=chrome&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F#🇷🇺 LTE обход 5
+vless://0080bc15-fce0-431b-b515-c2639e73109c@msk-hy.rknsosi.ru:443?type=tcp&security=reality&sni=msk-hy.rknsosi.ru&pbk=zu2XN_PMYZeUNl0U_W6zxo0X2Ir-0JQbj6-fbJh1IVw&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 5
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:9443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F#🇷🇺 LTE обход 6
+vless://0080bc15-fce0-431b-b515-c2639e73109c@ya-node.rknsosi.ru:443?type=tcp&security=reality&sni=api-maps.yandex.ru&pbk=Hni0uZJYvOn76lyTmxbCaBi5tgHLVw6L_Ty7l3Dho1s&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 6
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@yan-node.rknsosi.ru:8090?encryption=none&security=reality&type=xhttp&mode=auto&host=yan-node.rknsosi.ru&path=%2Fddxfx%2F&sni=ads.x5.ru&fp=chrome&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&sid=163c93d616a39851#🇷🇺 LTE обход 7
+vless://0080bc15-fce0-431b-b515-c2639e73109c@stp.loon.rknsosi.ru:443?type=grpc&security=reality&sni=api-maps.yandex.ru&pbk=iN5cZSyJnwnhvsTT5Rc2wdLRQEi7d40rxNDEDN3sRkg&fp=chrome#🇷🇺 LTE обход 7
 
-vless://0080bc15-fce0-431b-b515-c2639e73109c@spb-node.rknsosi.ru:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=spb-node.rknsosi.ru&fp=chrome&pbk=nSmpMJMKkS17WthqG4xvXJgziPIC1Z4cXCWwW0NSfz8&sid=c2eca053e4202128&type=tcp&headerType=none#🇷🇺 LTE обход 8
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:7443?type=tcp&security=reality&sni=eh.vk.com&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 8
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:8443?type=tcp&security=reality&sni=api-maps.yandex.ru&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 9
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:443?type=xhttp&security=tls&sni=yan-node.rknsosi.ru&fp=chrome#🇷🇺 LTE обход 10
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@spb-node.rknsosi.ru:7443?type=tcp&security=reality&sni=spb-node.rknsosi.ru&pbk=nSmpMJMKkS17WthqG4xvXJgziPIC1Z4cXCWwW0NSfz8&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 11
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@5.129.200.69:443?type=tcp&security=reality&sni=msk-node.rknsosi.ru&pbk=nSmpMJMKkS17WthqG4xvXJgziPIC1Z4cXCWwW0NSfz8&flow=xtls-rprx-vision&fp=chrome#🇷🇺 LTE обход 12
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@yan-node.rknsosi.ru:8090?type=xhttp&security=reality&sni=ads.x5.ru&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&fp=chrome#🇷🇺 LTE обход 13
+
+vless://0080bc15-fce0-431b-b515-c2639e73109c@84.201.132.60:9443?type=xhttp&security=reality&sni=api-maps.yandex.ru&pbk=9_PGnZseJONCpJPvxlWSLRsE3eXjbEUenfvd0Id83Ug&fp=chrome#🇷🇺 LTE обход 14
