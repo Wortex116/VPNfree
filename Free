@@ -5,13 +5,11 @@
 #subscription-userinfo: upload=0; download=0; total=10995116277760000; expire=252460800000
 
 
-vless://3b08659b-cbec-4e09-8dcf-a5a4c87d0fe4@62.152.58.35:6443?encryption=none&security=reality&sni=rutube.ru&fp=chrome&pbk=qBvVmWZFPfUH-96coWrN4jp6XTNFTzmVWA_IbtTsWyE&sid=9120&type=xhttp&mode=auto#🇷🇺 YouTube без рекламы 2
-vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.156:8443?type=tcp&security=none&fp=chrome#🇪🇪 Мост - Эстония
-vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.145:8443?type=tcp&security=none&fp=chrome#🇸🇪 Мост - Швеция
-vless://a55282c1-83a6-4b10-80f1-370e8b94276b@89.19.223.90:8443?type=tcp&security=none&fp=chrome#🇳🇱 Мост - Нидерланды
+vless://3b08659b-cbec-4e09-8dcf-a5a4c87d0fe4@62.152.58.35:6443?encryption=none&security=reality&sni=rutube.ru&fp=chrome&pbk=qBvVmWZFPfUH-96coWrN4jp6XTNFTzmVWA_IbtTsWyE&sid=9120&type=xhttp&mode=auto#🇷🇺 YouTube без рекламы 
+
 vless://3b08659b-cbec-4e09-8dcf-a5a4c87d0fe4@62.152.58.35:6443?encryption=none&security=reality&sni=rutube.ru&fp=chrome&pbk=qBvVmWZFPfUH-96coWrN4jp6XTNFTzmVWA_IbtTsWyE&sid=9120&type=xhttp&mode=auto#🇷🇺 Россия 1
 
-vless://c6058bb8-6194-4559-a6a6-2e0a8b05d962@ru1.zhaopn.xyz:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cloud.zhaopn.xyz&fp=chrome&pbk=EOCbUk-iqJ9KTAxQN7A21kLYJaHK6ABrt6ieLbTcAjI&sid=9e33492dbe00ee4d&type=tcp#🇷🇺 Россия 2
+
 
 vless://79d65a6a-f323-4225-98d3-ead307d0c92c@158.160.235.48:443?type=tcp&security=reality&fp=chrome&pbk=M9RUP828gp0WiT_5AQ8oF58fb_QBXtpyR9hpid17jjs&sni=www.nvidia.com&sid=7b&spx=%2F&encryption=mlkem768x25519plus.native.0rtt.AESuZ0uzJOu9-U-b-N0ZNUAfUGkj5tcgCAjTKOfEmR8#🇷🇺 Россия 3
 
