@@ -41,5 +41,3 @@ vless://983a701c-fd0a-4143-929c-4152394fea54@104.165.205.253:443?type=tcp&securi
 vless://983a701c-fd0a-4143-929c-4152394fea54@31.129.42.224:6443?type=grpc&security=reality&sni=5post-gate.x5.ru&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&fp=chrome#%F0%9F%A4%96%F0%9F%93%A1++LTE+%D0%90%D0%B2%D1%82%D0%BE+%D0%93%D0%BB%D1%83%D1%88%D0%B8%D0%BB%D0%BA%D0%B0
 
 vless://983a701c-fd0a-4143-929c-4152394fea54@144.31.190.244:8081?type=tcp&security=reality&sni=ads.x5.ru&pbk=QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0&flow=xtls-rprx-vision&fp=randomized#%F0%9F%A4%96%F0%9F%93%A1++LTE+%D0%90%D0%B2%D1%82%D0%BE+%D0%93%D0%BB%D1%83%D1%88%D0%B8%D0%BB%D0%BA%D0%B0
-
-vless://983a701c-fd0a-4143-929c-4152394fea54@144.31.190.191:8081?type=tcp&security=reality&sni=ads.x5.ru&pbk=QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0&flow=xtls-rprx-vision&fp=randomized#%F0%9F%A4%96%F0%9F%93%A1++LTE+%D0%90%D0%B2%D1%82%D0%BE+%D0%93%D0%BB%D1%83%D1%88%D0%B8%D0%BB%D0%BA%D0%B0
