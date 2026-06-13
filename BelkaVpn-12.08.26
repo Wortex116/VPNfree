@@ -1,0 +1,35 @@
+#profile-title: Belkavpn 12.08.26
+#profile-update-interval: 1
+#support-url: https://t.me/ciorsa
+#announce: ⚠️ Без торрентов и P2P. Только обход белых списков.
+#subscription-userinfo: upload=0; download=0; total=10995116277760000; expire=252460800000
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@de.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=firefox#%F0%9F%87%A9%F0%9F%87%AA%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F+%E2%AD%90%EF%B8%8F%F0%9F%8F%A0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@nl.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B+%E2%AD%90%EF%B8%8F%F0%9F%8F%A0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@fi.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F+%E2%AD%90%EF%B8%8F%F0%9F%8F%A0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@se.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F+%E2%AD%90%EF%B8%8F%F0%9F%8F%A0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@ru.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F+%F0%9F%8E%ACYouTube%2C+TikTok
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@usa.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=qq#%F0%9F%87%BA%F0%9F%87%B8%D0%A1%D0%A8%D0%90+%F0%9F%A4%96%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%B8
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@pl.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=qq#%F0%9F%87%B5%F0%9F%87%B1%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0+%E2%AD%90%EF%B8%8F
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@lte1.belka.network:443?type=tcp&security=reality&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&flow=xtls-rprx-vision&fp=chrome#LTE+1+-+%F0%9F%87%B7%F0%9F%87%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@37.139.43.57:443?type=tcp&security=reality&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&flow=xtls-rprx-vision&fp=chrome#LTE+2+-+%F0%9F%87%B3%F0%9F%87%B1%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@195.133.198.215:443?type=tcp&security=reality&sni=eh.vk.com&pbk=3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo&flow=xtls-rprx-vision&fp=chrome#LTE+5+-+%F0%9F%87%B3%F0%9F%87%B1+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B-%D1%82%D0%B5%D0%BB%D0%B52%2Cyota%2Cmega
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@ru.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=chrome#LTE+3+-+%F0%9F%87%B7%F0%9F%87%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%3A+X15+%D0%A0%D0%B0%D1%81%D1%85%D0%BE%D0%B4+%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@158.160.98.209:443?type=tcp&security=reality&sni=ads.x5.ru&pbk=r2z0sgaDnhJivtK4ptR1KytLtnkgF_qKEeGUEzalo0M&flow=xtls-rprx-vision&fp=chrome#LTE+3+-+%F0%9F%87%B7%F0%9F%87%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%3A+X15+%D0%A0%D0%B0%D1%81%D1%85%D0%BE%D0%B4+%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@ru.n.belka.network:443?type=tcp&security=reality&sni=yahoo.com&pbk=diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI&flow=xtls-rprx-vision&fp=chrome#LTE+4+-+%F0%9F%87%B7%F0%9F%87%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%3A+X15+%D0%A0%D0%B0%D1%81%D1%85%D0%BE%D0%B4+%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@51.250.102.172:443?type=tcp&security=reality&sni=ads.x5.ru&pbk=r2z0sgaDnhJivtK4ptR1KytLtnkgF_qKEeGUEzalo0M&flow=xtls-rprx-vision&fp=chrome#LTE+4+-+%F0%9F%87%B7%F0%9F%87%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%3A+X15+%D0%A0%D0%B0%D1%81%D1%85%D0%BE%D0%B4+%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0
+
+vless://7338cd25-615f-4469-9471-a644b32bfb8a@cdn-belka.topbelka.ru:443?type=xhttp&security=tls&sni=cdn-belka.topbelka.ru&fp=chrome#LTE+6+-+%F0%9F%87%B3%F0%9F%87%B1+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%3A+X15+%D0%A0%D0%B0%D1%81%D1%85%D0%BE%D0%B4+%D1%82%D1%80%D0%B0%D1%84
