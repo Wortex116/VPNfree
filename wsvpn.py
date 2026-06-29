@@ -1525,7 +1525,6 @@ def callback_refresh_cabinet(call):
     user_id = call.from_user.id
     current_time = int(time.time())
     
-    # Очищаем кеш пользователя
     clear_user_cache(user_id)
     
     conn = get_db_connection()
@@ -1609,7 +1608,6 @@ def my_subscription(message):
         bot.reply_to(message, "⚠️ Подпишитесь на канал.", reply_markup=subscribe_button())
         return
     
-    # Очищаем кеш пользователя
     clear_user_cache(user_id)
     
     conn = get_db_connection()
@@ -2525,7 +2523,6 @@ def _refresh_user_card(call, target_id, admin_id):
 
         kb = types.InlineKeyboardMarkup(row_width=2)
         
-        # ===== УПРАВЛЕНИЕ ПОДПИСКОЙ =====
         if has_permission(admin_id, 'add_days') or admin_id == ADMIN_ID:
             kb.add(types.InlineKeyboardButton("✅ Выдать подписку", callback_data=f"give_sub_{target_id}"))
             kb.add(types.InlineKeyboardButton("📅 +30 дн", callback_data=f"prolong_{target_id}_30"))
@@ -2536,14 +2533,12 @@ def _refresh_user_card(call, target_id, admin_id):
         if (has_permission(admin_id, 'add_days') or has_permission(admin_id, 'remove_days') or admin_id == ADMIN_ID):
             kb.add(types.InlineKeyboardButton("🗑️ Удалить подписку", callback_data=f"remove_sub_{target_id}"))
         
-        # ===== БЛОКИРОВКА =====
         if (has_permission(admin_id, 'block_user') or admin_id == ADMIN_ID):
             if blk == 1:
                 kb.add(types.InlineKeyboardButton("🔓 Разблокировать", callback_data=f"unblock_{target_id}"))
             else:
                 kb.add(types.InlineKeyboardButton("🔒 Заблокировать", callback_data=f"block_{target_id}"))
         
-        # ===== УПРАВЛЕНИЕ АДМИНАМИ (ТОЛЬКО ДЛЯ ВЛАДЕЛЬЦА!) =====
         if admin_id == ADMIN_ID:
             if target_id != ADMIN_ID:
                 if is_admin_user:
@@ -2551,7 +2546,6 @@ def _refresh_user_card(call, target_id, admin_id):
                 else:
                     kb.add(types.InlineKeyboardButton("👑 Выдать админку", callback_data=f"grant_admin_{target_id}"))
         
-        # ===== НАВИГАЦИЯ =====
         kb.row(
             types.InlineKeyboardButton("🔙 Назад к списку", callback_data="back_to_list"),
             types.InlineKeyboardButton("❌ Закрыть", callback_data="close_manage")
@@ -2879,8 +2873,6 @@ def callback_unblock(call):
     
     _refresh_user_card(call, target_id, user_id)
 
-# ===== УПРАВЛЕНИЕ АДМИНАМИ (ТОЛЬКО ДЛЯ ВЛАДЕЛЬЦА) =====
-
 @bot.callback_query_handler(func=lambda call: call.data.startswith('grant_admin_'))
 def callback_grant_admin(call):
     user_id = call.from_user.id
@@ -3024,12 +3016,10 @@ def admin_callback(call):
         bot.answer_callback_query(call.id, "⛔️ Нет прав")
         return
 
-    # ===== USER_ =====
     if data.startswith("user_") and len(data.split('_')) == 2:
         callback_user_detail(call)
         return
 
-    # ===== GRANT/REMOVE ADMIN =====
     if data.startswith('grant_admin_'):
         callback_grant_admin(call)
         return
@@ -3038,12 +3028,10 @@ def admin_callback(call):
         callback_remove_admin(call)
         return
 
-    # ===== FILTER/PAGE =====
     if data.startswith("filter_") or data.startswith("page_") or data in ('back_to_list', 'close_manage'):
         callback_user_list_nav(call)
         return
 
-    # ===== SUBSCRIPTION MANAGEMENT =====
     if data.startswith(('give_sub_', 'prolong_', 'remove_days_', 'remove_sub_', 'block_', 'unblock_')):
         if data.startswith('give_sub_'):
             callback_give_sub(call)
@@ -3063,7 +3051,6 @@ def admin_callback(call):
         callback_copy_link(call)
         return
 
-    # ===== РАССЫЛКА =====
     if data == "admin_announce":
         if not has_permission(user_id, 'announce') and user_id != ADMIN_ID:
             bot.answer_callback_query(call.id, "⛔️ Нет прав")
@@ -3155,7 +3142,6 @@ def admin_callback(call):
             search_cache[user_id] = {'action': 'add_broadcast_channel', 'timestamp': int(time.time())}
         return
 
-    # ===== НАВИГАЦИЯ =====
     if data == "admin_back":
         try:
             bot.delete_message(call.message.chat.id, call.message.message_id)
@@ -3179,7 +3165,6 @@ def admin_callback(call):
         bot.answer_callback_query(call.id)
         return
 
-    # ===== ЗАГРУЗКА КЛЮЧЕЙ ПОДПИСКИ =====
     if data == "admin_sub_keys_load":
         if not has_permission(user_id, 'manage_keys') and user_id != ADMIN_ID:
             bot.answer_callback_query(call.id, "⛔️ Нет прав")
@@ -3226,7 +3211,6 @@ def admin_callback(call):
         show_keys_menu(user_id, call.message.chat.id, call.message.message_id)
         return
 
-    # ===== УПРАВЛЕНИЕ КЛЮЧАМИ =====
     if data in ("admin_keys", "admin_sub_keys_load", "admin_sub_keys_finish") or data.startswith("admin_keys_"):
         if not has_permission(user_id, 'manage_keys') and user_id != ADMIN_ID:
             bot.answer_callback_query(call.id, "⛔️ Нет прав")
@@ -3251,7 +3235,6 @@ def admin_callback(call):
             callback_admin_keys_back(call)
         return
 
-    # ===== УПРАВЛЕНИЕ ПОЛЬЗОВАТЕЛЯМИ =====
     if data == "admin_manage_users":
         if not has_permission(user_id, 'manage_users') and user_id != ADMIN_ID:
             bot.answer_callback_query(call.id, "⛔️ Нет прав")
@@ -3292,7 +3275,6 @@ def admin_callback(call):
             bot.send_message(user_id, f"👥 Пользователи ({len(users)}):", reply_markup=kb)
         return
 
-    # ===== ЛОГИ =====
     if data == "admin_view_logs":
         if not has_permission(user_id, 'view_logs') and user_id != ADMIN_ID:
             bot.answer_callback_query(call.id, "⛔️ Нет прав на просмотр логов")
