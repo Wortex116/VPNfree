@@ -1657,7 +1657,9 @@ def my_subscription(message):
         )
         
         if link:
-            text += f"🔗 *Ссылка для импорта:*\n`{link}`\n\n"
+            # Экранируем ссылку для MarkdownV2
+            link_escaped = link.replace('_', '\\_').replace('.', '\\.').replace('-', '\\-')
+            text += f"🔗 *Ссылка для импорта:*\n`{link_escaped}`\n\n"
         
         text += f"💬 Поддержка: {SUPPORT}"
 
@@ -1684,7 +1686,7 @@ def my_subscription(message):
                 callback_data="refresh_cabinet"
             ))
         
-        bot.reply_to(message, text, parse_mode="Markdown", reply_markup=kb)
+        bot.reply_to(message, text, parse_mode="MarkdownV2", reply_markup=kb)
     except Exception as e:
         print(f"[my_subscription] Ошибка: {e}")
         traceback.print_exc()
